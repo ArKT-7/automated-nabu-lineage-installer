@@ -32,7 +32,7 @@ Derfest-rom.zip
 ## 🔧 Installation and Usage
 
 ### Linux Users:
-### 1. Make sure the scripts are executable(If Needed):
+#### 1. Make sure the scripts are executable(If Needed):
    ```bash
    chmod +x install_derpfest_linux.sh update_derpfest_linux.sh
    ```
