@@ -3,7 +3,7 @@
 ### A simple and efficient script to flash Derpfest ROM on the Xiaomi Pad 5 (nabu) in fastboot mode.
 
 ## 📂 Folder Structure
-Download all necessary binaries and files, and organize them as follows:
+### Download all necessary binaries and files, and organize them as follows:
 
 ```plaintext
 Derfest-rom.zip
@@ -32,12 +32,12 @@ Derfest-rom.zip
 ## 🔧 Installation and Usage
 
 ### Linux Users:
-1. Make sure the scripts are executable(If Needed):
+### 1. Make sure the scripts are executable(If Needed):
    ```bash
    chmod +x install_derpfest_linux.sh update_derpfest_linux.sh
    ```
    
-2. Run the installation or update script:
+### 2. Run the installation or update script:
    ```bash
    ./install_derpfest_linux.sh    # For installation
    ./update_derpfest_linux.sh     # For updating
@@ -57,6 +57,6 @@ Derfest-rom.zip
 
 
 ---
-# Enjoy a smooth flashing experience with the **Automated Derpfest Installer**!
+#### Enjoy a smooth flashing experience with the **Automated Derpfest Installer**!
 ---
 
