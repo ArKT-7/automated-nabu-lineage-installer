@@ -57,7 +57,7 @@ Derfest-rom.zip
 
 
 
-Enjoy a smooth flashing experience with the **Automated Derpfest Installer**!
+- Enjoy a smooth flashing experience with the **Automated Derpfest Installer**!
 
-``` 
+'''
 
