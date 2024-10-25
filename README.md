@@ -53,7 +53,10 @@ Derfest-rom.zip
 ### 📜 Notes
 - **Images Folder:** Contains necessary partition images.
 - **Bin Folder:** Stores platform tools and logging utilities for both Windows and Linux.
-  - If these files or folders are missing, the script will automatically download the required files, create the necessary folders, and place the platform tools and logging utilities (like `tee.exe`) in the appropriate locations.
+  - **Platform Tools for Windows:** [Download here](https://developer.android.com/studio/releases/platform-tools)  
+  - **Platform Tools for Linux:** [Download here](https://developer.android.com/studio/releases/platform-tools)  
+  - **tee.exe for Windows logging utility:** [Download here](https://github.com/dEajL3kA/tee-win32)
+  - If these files or folders are missing, the script will automatically download the required files, create the necessary folders, and place the platform tools and logging utilities in the appropriate locations.
 
 
 ---
