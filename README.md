@@ -43,7 +43,7 @@ Derfest-rom.zip
    ./update_derpfest_linux.sh     # For updating
    ```
 
-#### Windows Users:
+### Windows Users:
 - Simply run the .bat file for installation or updating:
   ```plaintext
   install_derpfest_windows.bat   # For installation
