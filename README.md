@@ -55,7 +55,7 @@ Derfest-rom.zip
 - **Bin Folder:** Stores platform tools and logging utilities for both Windows and Linux.
   - If these files or folders are missing, the script will automatically download the required files, create the necessary folders, and place the platform tools and logging utilities (like `tee.exe`) in the appropriate locations.
 
----
+
 
 Enjoy a smooth flashing experience with the **Automated Derpfest Installer**!
 
