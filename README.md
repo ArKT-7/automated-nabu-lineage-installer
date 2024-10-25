@@ -37,13 +37,13 @@ Derfest-rom.zip
    chmod +x install_derpfest_linux.sh update_derpfest_linux.sh
    ```
    
-### 2. Run the installation or update script:
+#### 2. Run the installation or update script:
    ```bash
    ./install_derpfest_linux.sh    # For installation
    ./update_derpfest_linux.sh     # For updating
    ```
 
-### Windows Users:
+#### Windows Users:
 - Simply run the .bat file for installation or updating:
   ```plaintext
   install_derpfest_windows.bat   # For installation
@@ -57,6 +57,6 @@ Derfest-rom.zip
 
 
 ---
-#### Enjoy a smooth flashing experience with the **Automated Derpfest Installer**!
+### Enjoy a smooth flashing experience with the **Automated Derpfest Installer**!
 ---
 
