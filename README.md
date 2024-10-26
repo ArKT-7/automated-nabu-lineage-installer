@@ -38,6 +38,13 @@ Derfest-rom.zip
 
 ## 🔧 Installation and Usage
 
+### Windows Users:
+- Simply run the .bat file for installation or updating:
+  ```plaintext
+  install_derpfest_windows.bat   # For installation
+  update_derpfest_windows.bat    # For updating
+  ```
+  
 ### Linux Users:
 #### 1. Make sure the scripts are executable(If Needed):
    ```bash
@@ -49,13 +56,6 @@ Derfest-rom.zip
    ./install_derpfest_linux.sh    # For installation
    ./update_derpfest_linux.sh     # For updating
    ```
-
-### Windows Users:
-- Simply run the .bat file for installation or updating:
-  ```plaintext
-  install_derpfest_windows.bat   # For installation
-  update_derpfest_windows.bat    # For updating
-  ```
 
 ### 📜 Notes
 - **Images Folder:** Contains necessary partition images.
