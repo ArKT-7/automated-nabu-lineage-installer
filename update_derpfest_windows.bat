@@ -390,7 +390,7 @@ echo.
 echo.
 call :log "Installation is complete! Your device has rebooted successfully."
 pause
-exit /B 0
+exit
 
 :log
 echo %~1 | %tee% -a "%log_file%"
