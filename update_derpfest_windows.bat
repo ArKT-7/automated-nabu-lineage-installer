@@ -389,7 +389,9 @@ call :log  "Script By - @ArKT_7"
 echo.
 echo.
 call :log "Installation is complete! Your device has rebooted successfully."
-pause
+echo.
+set /p "=Press any key to exit" <nul
+pause >nul
 exit
 
 :log
