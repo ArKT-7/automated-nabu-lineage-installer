@@ -20,6 +20,8 @@ if [ ! -d "$base_dir/bin/linux" ]; then
 fi
 
 # Define cool ASCII logo
+# NOTE: quickly experimented with saving it in a multiline variable.
+# NOTE: maybe we could improve on that, but in this current attempt multilines are ignored by -d.
 #read -r -d '' derpfest_ascii <<"EOF"
 #█████▄ ▓█████  ██▀███   ██▓███    █████▒▓█████   ██████ ▄▄▄█████▓ 
 #▒██▀ ██▌▓█   ▀ ▓██ ▒ ██▒▓██░  ██▒▓██   ▒ ▓█   ▀ ▒██    ▒ ▓  ██▒ ▓▒
@@ -35,6 +37,8 @@ fi
 #EOF
 
 # Function to print cool ascii header
+# NOTE: maybe we could do a flag here that determins whether to log or not, i was in a hurry and
+# NOTE: couldn't implement it, in my limited time, just an idea
 print_derpfest_ascii() {
     echo
     echo "█████▄ ▓█████  ██▀███   ██▓███    █████▒▓█████   ██████ ▄▄▄█████▓ "
@@ -52,6 +56,7 @@ print_derpfest_ascii() {
 }
 
 # Function to print and log cool ascii header
+# NOTE: see above NOTE.
 print_log_derpfest_ascii() {
     echo
     echo "█████▄ ▓█████  ██▀███   ██▓███    █████▒▓█████   ██████ ▄▄▄█████▓ " | tee -a "$log_file"
