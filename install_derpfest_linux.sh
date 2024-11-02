@@ -19,6 +19,21 @@ if [ ! -d "$base_dir/bin/linux" ]; then
     mkdir -p "bin/linux"
 fi
 
+# Define cool ASCII logo
+read -r -d '' derpfest_ascii <<"EOF"
+█████▄ ▓█████  ██▀███   ██▓███    █████▒▓█████   ██████ ▄▄▄█████▓ 
+▒██▀ ██▌▓█   ▀ ▓██ ▒ ██▒▓██░  ██▒▓██   ▒ ▓█   ▀ ▒██    ▒ ▓  ██▒ ▓▒
+░██   █▌▒███   ▓██ ░▄█ ▒▓██░ ██▓▒▒████ ░ ▒███   ░ ▓██▄   ▒ ▓██░ ▒░
+░▓█▄   ▌▒▓█  ▄ ▒██▀▀█▄  ▒██▄█▓▒ ▒░▓█▒  ░ ▒▓█  ▄   ▒   ██▒░ ▓██▓ ░ 
+░▒████▓ ░▒████▒░██▓ ▒██▒▒██▒ ░  ░░▒█░    ░▒████▒▒██████▒▒  ▒██▒ ░ 
+ ▒▒▓  ▒ ░░ ▒░ ░░ ▒▓ ░▒▓░▒▓▒░ ░  ░ ▒ ░    ░░ ▒░ ░▒ ▒▓▒ ▒ ░  ▒ ░░   
+ ░ ▒  ▒  ░ ░  ░  ░▒ ░ ▒░░▒ ░      ░       ░ ░  ░░ ░▒  ░ ░    ░    
+ ░ ░  ░    ░     ░░   ░ ░░        ░ ░       ░   ░  ░  ░    ░      
+
+                             P.A.N.Z                              
+Script By, @ArKT_7
+EOF
+
 
 # Define the download link and file names
 platform_tools_url="https://dl.google.com/android/repository/platform-tools-latest-linux.zip"
