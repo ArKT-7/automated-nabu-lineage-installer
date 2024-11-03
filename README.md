@@ -24,6 +24,7 @@ Derfest-rom.zip
     ├── ksu_boot.img
     ├── ksu_dtbo.img
     ├── magisk_boot.img
+    ├── userdata.img
     ├── super.img
     ├── vbmeta.img
     ├── vbmeta_system.img
