@@ -273,6 +273,9 @@ echo
 echo "erasing userdata" | tee -a "$log_file"
 $fastboot erase userdata | tee -a "$log_file"
 echo
+echo "flashing userdata" | tee -a "$log_file"
+$fastboot flash userdata images/userdata.img |& tee -a "$log_file"
+echo
 $fastboot reboot |& tee -a "$log_file"
 echo
 
