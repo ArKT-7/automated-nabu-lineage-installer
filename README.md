@@ -1,7 +1,7 @@
 # 🚀 Automated Derpfest Installer for Xiaomi Pad 5 (nabu)
 
 ## A simple and efficient script to flash Derpfest ROM on the Xiaomi Pad 5 (nabu) in fastboot mode.
-### ROM LATEST FLASTBOOT FLASHABLE LINK [DerpFest-14-Official-Stable-nabu-20241013-0221-fastboot](https://1drv.ms/u/s!ArrRdTwOqQPll4BWRN1JrHH6PR6dPA?e=OKRcd0)
+### ROM LATEST FLASTBOOT FLASHABLE LINK [DerpFest-14-Official-Stable-nabu-20241013-0221-fastboot](https://1drv.ms/u/s!ArrRdTwOqQPll4EqH9ISU1xpc2n1nA?e=cvBAOi)
 ### 🏆 Original ROM Creator
 ### This ROM was built by [P.A.N.Z](https://github.com/ppanzenboeck). Special thanks for making this ROM available!
 ---
