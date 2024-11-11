@@ -381,11 +381,11 @@ echo.
 call :log "Erasing metadata"
 %fastboot% erase metadata 2>&1 | %tee% -a "%log_file%"
 echo.
-call :log "Erasing userdata"
-%fastboot% erase userdata 2>&1 | %tee% -a "%log_file%"
-echo.
 call :log "Flashing userdata"
 %fastboot% flash userdata images\userdata.img 2>&1 | %tee% -a "%log_file%"
+echo.
+call :log "Erasing userdata"
+%fastboot% erase userdata 2>&1 | %tee% -a "%log_file%"
 %fastboot% reboot 2>&1 | %tee% -a "%log_file%"
 goto finished
 
