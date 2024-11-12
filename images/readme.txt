@@ -1,4 +1,4 @@
-here put derfest rom .img files (latest files will be uploaded to release section)
+here put derfest rom .img files (latest files has been uploaded to release section)
 1. boot.img
 2. dtbo.img
 3. ksu_boot.img
