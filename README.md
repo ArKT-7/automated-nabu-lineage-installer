@@ -34,7 +34,7 @@ Derfest-rom.zip
     │   └── log-tool (tee.exe files)
     └── linux
         └── platform-tools (files)
-└── bin
+└── ROOT_APK_INSATLL_THIS_ONLY
     ├── Magisk.apk
     └── KernelSU.apk (1.0.1)
 ```
