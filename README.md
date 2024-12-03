@@ -1,8 +1,8 @@
-# 🚀 Automated Derpfest Installer for Xiaomi Pad 5 (nabu)
+# 🚀 Automated Lineage OS Installer for Xiaomi Pad 5 (nabu)
 
-## A simple and efficient script to flash Derpfest ROM on the Xiaomi Pad 5 (nabu) in fastboot mode.
-### ROM A15 LATEST FLASTBOOT FLASHABLE LINK [DerpFest-15-Official-Stable-nabu-20241112-2237-FASTBOOT](https://1drv.ms/u/s!ArrRdTwOqQPll4Vjzggx1ZeqK6d1yQ?e=935YGD)
-### ROM A14 FLASTBOOT FLASHABLE LINK [DerpFest-14-Official-Stable-nabu-20241013-0221-fastboot](https://1drv.ms/u/s!ArrRdTwOqQPll4EqH9ISU1xpc2n1nA)
+## A simple and efficient script to flash Lineage ROM on the Xiaomi Pad 5 (nabu) in fastboot mode.
+### ROM A15 LATEST FLASTBOOT FLASHABLE LINK [Lineage-15-Official-Stable-nabu-20241112-2237-FASTBOOT](https://1drv.ms/u/s!ArrRdTwOqQPll4Vjzggx1ZeqK6d1yQ?e=935YGD)
+### ROM A14 FLASTBOOT FLASHABLE LINK [Lineage-14-Official-Stable-nabu-20241013-0221-fastboot](https://1drv.ms/u/s!ArrRdTwOqQPll4EqH9ISU1xpc2n1nA)
 ### 🏆 Original ROM Creator
 ### This ROM was built by [P.A.N.Z](https://github.com/ppanzenboeck). Special thanks for making this ROM available!
 ---
@@ -11,19 +11,17 @@
 ---
 
 ## 📂 Folder Structure
-### Download all necessary binaries, files and [images](https://github.com/ArKT-7/automated-nabu-derpfest-installer/releases/tag/derpfest-november), and organize them as follows:
+### Download all necessary binaries, files and [images](https://github.com/ArKT-7/automated-nabu-Lineage-installer/releases/tag/Lineage-november), and organize them as follows:
 
 ```plaintext
 Derfest-rom.zip
--install_derpfest_linux.sh
--install_derpfest_windows.bat
--update_derpfest_linux.sh
--update_derpfest_windows.bat
+-install_LineageOS_linux.sh
+-install_LineageOS_windows.bat
+-update_LineageOS_linux.sh
+-update_LineageOS_windows.bat
 └── images
     ├── boot.img
     ├── dtbo.img
-    ├── ksu_boot.img
-    ├── ksu_dtbo.img
     ├── magisk_boot.img
     ├── userdata.img
     ├── super.img
@@ -43,20 +41,20 @@ Derfest-rom.zip
 ### Windows Users:
 - Simply run the .bat file for installation or updating:
   ```plaintext
-  install_derpfest_windows.bat   # For installation
-  update_derpfest_windows.bat    # For updating
+  install_LineageOS_windows.bat   # For installation
+  update_LineageOS_windows.bat    # For updating
   ```
   
 ### Linux Users:
 #### 1. Make sure the scripts are executable(If Needed):
    ```bash
-   chmod +x install_derpfest_linux.sh update_derpfest_linux.sh
+   chmod +x install_LineageOS_linux.sh update_LineageOS_linux.sh
    ```
    
 #### 2. Run the installation or update script:
    ```bash
-   ./install_derpfest_linux.sh    # For installation
-   ./update_derpfest_linux.sh     # For updating
+   sudo bash ./install_lineageOS_linux.sh    # For installation
+   sudo bash ./update_LineageOS_linux.sh     # For updating
    ```
 
 ### 📜 Notes
@@ -69,6 +67,6 @@ Derfest-rom.zip
 
 
 ---
-### Enjoy a smooth flashing experience with the **Automated Derpfest Installer**!
+### Enjoy a smooth flashing experience with the **Automated Lineage Installer**!
 ---
 
