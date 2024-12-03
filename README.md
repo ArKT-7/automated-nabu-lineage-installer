@@ -28,12 +28,14 @@ Derfest-rom.zip
     ├── vbmeta.img
     ├── vbmeta_system.img
     └── vendor_boot.img
+
 └── bin
     ├── windows
     │   ├── platform-tools (files)
     │   └── log-tool (tee.exe files)
     └── linux
         └── platform-tools (files)
+
 └── ROOT_APK_INSATLL_THIS_ONLY
     ├── Magisk.apk
     └── KernelSU.apk (1.0.1)
