@@ -65,7 +65,7 @@ Derfest-rom.zip
 
 ### 📜 Notes
 - **Images Folder:** Contains necessary partition images.
-- **ROOT_APK_INSATLL_THIS_ONLY Folder:** Stores Magisk apk from which the Magisk boot is patched and KSU apk (For root).
+- **ROOT_APK_INSATLL_THIS_ONLY Folder:** Stores [Magisk apk](https://github.com/topjohnwu/Magisk/releases/tag/v28.0) from which the Magisk boot is patched and [KernelSU apk](https://github.com/tiann/KernelSU/releases/tag/v1.0.1) (For root).
 - **Bin Folder:** Stores platform tools and logging utilities for both Windows and Linux.
   - **Platform Tools for Windows:** [Download here](https://developer.android.com/studio/releases/platform-tools)  
   - **Platform Tools for Linux:** [Download here](https://developer.android.com/studio/releases/platform-tools)  
