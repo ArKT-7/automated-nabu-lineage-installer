@@ -4,10 +4,10 @@
 ### ROM A15 LATEST FLASTBOOT FLASHABLE LINK [Lineage-15-Official-Stable-nabu-20241112-2237-FASTBOOT](https://1drv.ms/u/s!ArrRdTwOqQPll4Vjzggx1ZeqK6d1yQ?e=935YGD)
 ### ROM A14 FLASTBOOT FLASHABLE LINK [Lineage-14-Official-Stable-nabu-20241013-0221-fastboot](https://1drv.ms/u/s!ArrRdTwOqQPll4EqH9ISU1xpc2n1nA)
 ### 🏆 Original ROM Creator
-### This ROM was built by [P.A.N.Z](https://github.com/ppanzenboeck). Special thanks for making this ROM available!
+### This ROM was built by [dev-harsh1998](https://github.com/dev-harsh1998). Special thanks for making this ROM available!
 ---
 ### 🛠 Support
-### **ROM Support Group**: [Join here on Telegram](https://t.me/+x29bHVZKa9ZhZjBk) for assistance, updates, and community support.
+### **ROM Support Group**: [Join here on Telegram](https://t.me/xiaomipad5global) for assistance, updates, and community support.
 ---
 
 ## 📂 Folder Structure
@@ -34,6 +34,9 @@ Derfest-rom.zip
     │   └── log-tool (tee.exe files)
     └── linux
         └── platform-tools (files)
+└── bin
+    ├── Magisk.apk
+    └── KernelSU.apk (1.0.1)
 ```
 
 ## 🔧 Installation and Usage
@@ -59,6 +62,7 @@ Derfest-rom.zip
 
 ### 📜 Notes
 - **Images Folder:** Contains necessary partition images.
+- **ROOT_APK_INSATLL_THIS_ONLY Folder:** Stores Magisk apk from which the Magisk boot is patched and KSU apk (For root).
 - **Bin Folder:** Stores platform tools and logging utilities for both Windows and Linux.
   - **Platform Tools for Windows:** [Download here](https://developer.android.com/studio/releases/platform-tools)  
   - **Platform Tools for Linux:** [Download here](https://developer.android.com/studio/releases/platform-tools)  
