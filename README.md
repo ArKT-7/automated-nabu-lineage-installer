@@ -38,7 +38,7 @@ Derfest-rom.zip
         └── platform-tools (files)
 
 └── ROOT_APK_INSATLL_THIS_ONLY
-    ├── Magisk.apk
+    ├── Magisk.apk (V28 Stable)
     └── KernelSU.apk (1.0.1)
 ```
 
