@@ -15,10 +15,12 @@
 
 ```plaintext
 Derfest-rom.zip
+
 -install_LineageOS_linux.sh
 -install_LineageOS_windows.bat
 -update_LineageOS_linux.sh
 -update_LineageOS_windows.bat
+
 └── images
     ├── boot.img
     ├── dtbo.img
