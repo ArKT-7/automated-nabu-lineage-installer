@@ -7,7 +7,6 @@
 
 assert(getprop("ro.product.device") == "nabu" || abort("ERROR: This package is for device: Nabu Xiaomi pad 5; this device is " + getprop("ro.product.device") + "."););
 ui_print("----------------------------------------------------");
-
 ui_print("  _     _                                ___  ____  ");
 ui_print(" | |   (_)_ __   ___  __ _  __ _  ___   / _ \/ ___| ");
 ui_print(" | |   | | '_ \ / _ \/ _` |/ _` |/ _ \ | | | \___ \ ");
