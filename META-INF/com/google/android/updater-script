@@ -1,0 +1,68 @@
+#!/sbin/bash
+#
+# Copyright (C) 2024-25 https://github.com/ArKT-7
+#
+# Made for flash Android rom in recovery for Xiaomi Pad 5 (Nabu) 
+#
+
+assert(getprop("ro.product.device") == "nabu" || abort("ERROR: This package is for device: Nabu Xiaomi pad 5; this device is " + getprop("ro.product.device") + "."););
+ui_print("----------------------------------------------------");
+
+ui_print("  _     _                                ___  ____  ");
+ui_print(" | |   (_)_ __   ___  __ _  __ _  ___   / _ \/ ___| ");
+ui_print(" | |   | | '_ \ / _ \/ _` |/ _` |/ _ \ | | | \___ \ ");
+ui_print(" | |___| | | | |  __/ (_| | (_| |  __/ | |_| |___) |");
+ui_print(" |_____|_|_| |_|\___|\__,_|\__, |\___|  \___/|____/ ");
+ui_print("                           |___/                    ");
+ui_print("						                              ");
+ui_print("                                                    ");
+ui_print("        Are you ready for the Lineage os?           ");
+ui_print("                                                    ");
+ui_print("----------------------------------------------------");
+ui_print(" Android version: 15");
+ui_print(" Device: Xiaomi Pad 5");
+ui_print(" Build date: JAN 16 2025");
+ui_print(" more info: nitial QPR1 build");
+ui_print("----------------------------------------------------");
+ui_print(" ");
+show_progress(0.020000, 10);
+package_extract_file("META-INF/com/arkt/bootctl", "/tmp/bootctl");
+run_program("/sbin/sh", "-c", "chmod 777 /tmp/bootctl");
+ui_print("Set active boot slot a...");
+run_program("/tmp/bootctl", "set-active-boot-slot", "0");
+ui_print(" ");
+ui_print("Flashing boot image..");
+package_extract_file("images/boot.img", "/dev/block/platform/soc/1d84000.ufshc/by-name/boot_a");
+package_extract_file("images/boot.img", "/dev/block/platform/soc/1d84000.ufshc/by-name/boot_b");
+show_progress(0.100000, 10);
+ui_print(" ");
+ui_print("Flashing dtbo image..");
+package_extract_file("images/dtbo.img", "/dev/block/platform/soc/1d84000.ufshc/by-name/dtbo_a");
+package_extract_file("images/dtbo.img", "/dev/block/platform/soc/1d84000.ufshc/by-name/dtbo_b");
+show_progress(0.020000, 10);
+ui_print(" ");
+ui_print("Flashing vendor_boot image..");
+package_extract_file("images/vendor_boot.img", "/dev/block/platform/soc/1d84000.ufshc/by-name/vendor_boot_a");
+package_extract_file("images/vendor_boot.img", "/dev/block/platform/soc/1d84000.ufshc/by-name/vendor_boot_b");
+show_progress(0.100000, 10);
+ui_print(" ");
+ui_print("Flashing vbmeta image..");
+package_extract_file("images/vbmeta.img", "/dev/block/platform/soc/1d84000.ufshc/by-name/vbmeta_a");
+package_extract_file("images/vbmeta.img", "/dev/block/platform/soc/1d84000.ufshc/by-name/vbmeta_b");
+show_progress(0.020000, 10);
+ui_print(" ");
+ui_print("Flashing vbmeta_system image..");
+package_extract_file("images/vbmeta_system.img", "/dev/block/platform/soc/1d84000.ufshc/by-name/vbmeta_system_a");
+package_extract_file("images/vbmeta_system.img", "/dev/block/platform/soc/1d84000.ufshc/by-name/vbmeta_system_b");
+ui_print(" ");
+show_progress(1.000000, 160);
+ui_print("Flashing super image..");
+package_extract_file("images/super.img", "/dev/block/platform/soc/1d84000.ufshc/by-name/super");
+run_program("/tmp/bootctl", "set-active-boot-slot", "0");
+set_progress(1);
+ui_print(" ");
+ui_print("rom by dev-harsh1998 ");
+ui_print(" ");
+ui_print("Flasher by ArKT ");
+ui_print(" ");
+ui_print("Done!");
