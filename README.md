@@ -13,7 +13,7 @@
 ### Download all necessary binaries, files and [images](https://github.com/ArKT-7/automated-nabu-lineage-installer/releases/tag/lineage-22.0-20241201-UNOFFICIAL-nabu), and organize them as follows:
 
 ```plaintext
-Derfest-rom.zip
+LineageOS-rom.zip
 
 -install_LineageOS_linux.sh
 -install_LineageOS_windows.bat
