@@ -28,7 +28,7 @@ set GREEN=%ESC%[92m
 set RESET=%ESC%[0m
 
 rem Define required files in the 'images' folder
-set required_files=boot.img dtbo.img ksu_boot.img ksu_dtbo.img magisk_boot.img super.img userdata.img vbmeta.img vbmeta_system.img vendor_boot.img
+set required_files=boot.img dtbo.img magisk_boot.img super.img userdata.img vbmeta.img vbmeta_system.img vendor_boot.img
 
 rem Check if the 'images' folder exists
 if not exist "images" (
@@ -332,8 +332,8 @@ call :log "%YELLOW%Starting installation with KSU...%RESET%"
 %fastboot% set_active a 2>&1 | %tee% -a "%log_file%"
 echo.
 call :log "%YELLOW%Flashing ksu_dtbo%RESET%"
-%fastboot% flash dtbo_a images\ksu_dtbo.img 2>&1 | %tee% -a "%log_file%"
-%fastboot% flash dtbo_b images\ksu_dtbo.img 2>&1 | %tee% -a "%log_file%"
+%fastboot% flash dtbo_a images\dtbo.img 2>&1 | %tee% -a "%log_file%"
+%fastboot% flash dtbo_b images\dtbo.img 2>&1 | %tee% -a "%log_file%"
 echo.
 call :log "%YELLOW%Flashing vbmeta%RESET%"
 %fastboot% flash vbmeta_a images\vbmeta.img 2>&1 | %tee% -a "%log_file%"
@@ -344,8 +344,8 @@ call :log "%YELLOW%Flashing vbmeta_system%RESET%"
 %fastboot% flash vbmeta_system_b images\vbmeta_system.img 2>&1 | %tee% -a "%log_file%"
 echo.
 call :log "%YELLOW%Flashing ksu_boot%RESET%"
-%fastboot% flash boot_a images\ksu_boot.img 2>&1 | %tee% -a "%log_file%"
-%fastboot% flash boot_b images\ksu_boot.img 2>&1 | %tee% -a "%log_file%"
+%fastboot% flash boot_a images\boot.img 2>&1 | %tee% -a "%log_file%"
+%fastboot% flash boot_b images\boot.img 2>&1 | %tee% -a "%log_file%"
 goto common_flash
 
 :install_magisk
