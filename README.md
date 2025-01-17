@@ -30,6 +30,15 @@ Derfest-rom.zip
     ├── vbmeta_system.img
     └── vendor_boot.img
 
+└── META-INF
+    └── com
+        ├── arkt 
+        │   └── bootctl (binary for switch slot)
+        └── google
+            └── android
+                ├── update-binary 
+                └── updater-script 
+
 └── bin
     ├── windows
     │   ├── platform-tools (files)
@@ -39,7 +48,7 @@ Derfest-rom.zip
 
 └── ROOT_APK_INSATLL_THIS_ONLY
     ├── KernelSU.apk (1.0.1)
-    └── Magisk.apk (V28 Stable)
+    └── Magisk.apk (V28.1 Stable)
 ```
 
 ## 🔧 Installation and Usage
