@@ -20,7 +20,7 @@ ui_print("----------------------------------------------------");
 ui_print(" Android version: 15");
 ui_print(" Device: Xiaomi Pad 5");
 ui_print(" Build date: JAN 16 2025");
-ui_print(" more info: nitial QPR1 build");
+ui_print(" more info: initial QPR1 build");
 ui_print("----------------------------------------------------");
 ui_print(" ");
 show_progress(0.020000, 10);
