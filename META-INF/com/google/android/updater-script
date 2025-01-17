@@ -14,7 +14,6 @@ ui_print(" | |   | | '_ \ / _ \/ _` |/ _` |/ _ \ | | | \___ \ ");
 ui_print(" | |___| | | | |  __/ (_| | (_| |  __/ | |_| |___) |");
 ui_print(" |_____|_|_| |_|\___|\__,_|\__, |\___|  \___/|____/ ");
 ui_print("                           |___/                    ");
-ui_print("						                              ");
 ui_print("                                                    ");
 ui_print("        Are you ready for the Lineage os?           ");
 ui_print("                                                    ");
