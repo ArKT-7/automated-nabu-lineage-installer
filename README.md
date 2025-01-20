@@ -10,7 +10,7 @@
 ---
 
 ## 📂 Folder Structure
-### Download all necessary binaries, files and [images](https://github.com/ArKT-7/automated-nabu-lineage-installer/releases/tag/lineage-22.0-20241201-UNOFFICIAL-nabu), and organize them as follows:
+### Download all necessary binaries, files and [images](https://github.com/ArKT-7/automated-nabu-lineage-installer/releases/tag/lineage-22.1-20250115-UNOFFICIAL-nabu), and organize them as follows:
 
 ```plaintext
 LineageOS-rom.zip
