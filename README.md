@@ -1,7 +1,7 @@
 # 🚀 Automated Lineage OS Installer for Xiaomi Pad 5 (nabu)
 
 ## A simple and efficient script to flash Lineage ROM on the Xiaomi Pad 5 (nabu) in fastboot mode.
-### ROM A15 LATEST FLASTBOOT/RECOVERY FLASHABLE LINK [lineage-22.1-20250115-UNOFFICIAL-nabu-FASTBOOT_RECOVERY](https://1drv.ms/u/c/e503a90e3c75d1ba/EePOGMhdCy9OlagQrbOYf48BHZfLSw7lxTiIqWsMz_d_Ig?e=pYeEji)
+### ROM A15 LATEST FLASTBOOT/RECOVERY FLASHABLE LINK [lineage-22.1-20250207-UNOFFICIAL-nabu-FASTBOOT_RECOVERY](https://1drv.ms/u/c/e503a90e3c75d1ba/Ea7pXyX5GLdIk0Mxg6gO5swB7n8Cv8GEN1IhTG9IzfRNdA?e=Sxf3ao)
 ### 🏆 Original ROM Creator
 ### This ROM was built by [dev-harsh1998](https://github.com/dev-harsh1998). Special thanks for making this ROM available!
 ---
@@ -10,7 +10,7 @@
 ---
 
 ## 📂 Folder Structure
-### Download all necessary binaries, files and [images](https://github.com/ArKT-7/automated-nabu-lineage-installer/releases/tag/lineage-22.1-20250115-UNOFFICIAL-nabu), and organize them as follows:
+### Download all necessary binaries, files and [images](https://github.com/ArKT-7/automated-nabu-lineage-installer/releases/tag/lineage-22.1-20250207-UNOFFICIAL-nabu), and organize them as follows:
 
 ```plaintext
 LineageOS-rom.zip
